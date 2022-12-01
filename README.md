@@ -1,1 +1,1 @@
-# Real-time Clothing Size Estimation Using Body Segmentation
+# Real-time Body Size Measurement 
