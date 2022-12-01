@@ -22,6 +22,12 @@ st.title("Real Time Body size measurement")
 with st.sidebar:
     selected = option_menu("Menu", ["Steps to do","Get Image", 'Generate and download OBJ File', 'Upload the OBJ file'], menu_icon="cast", default_index=1)
 
+if selected == "Steps to do":
+
+    st.header("1. Get Image - Capture the image through the website camera and save it .")
+    st.header("2. Generate and download OBJ File - Download the OBJ ZIP and save it. ")
+    st.header("3. Upload the OBJ File - Upload the OBJ ZIP to see the Dimensions")
+
 if selected == "Get Image":
 
 
